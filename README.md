@@ -17,3 +17,12 @@ The screen shows the Marlin logo but goes blank when loading the menu. This is d
 ## How to use:
 1. Copy the `U8glib` folder to your `Documents/Arduino/libraries`.
 2. Open the Marlin sketch and set Motherboard to `47`.
+
+AllinoneMarlin Firmware Flashing Tutorial
+Download and install the Arduino IDE.
+
+## Original setup from manufactory:
+1.Install the U8glib library and update it to the latest version.
+2.Copy the file u8g_dev_uc1701_mini12864.c to the following directory: C:\Users\YourUserName\Documents\Arduino\libraries\U8glib\src\clib and replace the original file existing in that folder.
+3.Use the Arduino IDE to flash the firmware.
+
